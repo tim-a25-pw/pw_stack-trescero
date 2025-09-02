@@ -1,0 +1,26 @@
+.hero {
+    .wrapper{
+        padding: 195px 0px;
+    }
+
+    .hero_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        max-width: 785px;
+
+        h1{
+            font-weight: 300;
+        }
+
+        span{
+            font-weight: bold;
+        }
+
+        p{
+            max-width: 540px;
+        }
+    }
+}

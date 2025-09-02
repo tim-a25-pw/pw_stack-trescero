@@ -5,6 +5,8 @@
     align-items: center;
 
     height: 100px;
+
+    padding: 0;
 }
 
 .logo{
@@ -15,6 +17,14 @@
 
     display: flex;
     gap: 30px;
+
+    
+    text-decoration: none;
+    transition: color .2s ease-in-out;
+
+    &:hover{
+        text-decoration: none;
+    }
 
     .icon{
         height: 54px;
@@ -43,7 +53,7 @@
 
         text-decoration: none;
 
-        transition: color .2s ease-in-out;
+        transition: all .2s ease-in-out;
 
         &:hover{
             color: var(--color-primary);

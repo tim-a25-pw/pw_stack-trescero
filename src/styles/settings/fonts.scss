@@ -7,11 +7,12 @@
     --font-secondary: 'PT Sans', sans-serif;
     --font-a-header: 'Open Sans', sans-serif;
 
-    --font-size-content: 1.8rem;
+    --font-size-content: #{typo(18px)};
 
     /// Grosseur des textes
-    --font-size-h1: 10rem;
-    --font-size-h2: 7rem;
-    --font-size-h3: 3.5rem;
-    --font-size-a-header: 14px;
+    --font-size-h1: #{typo(100px)};
+    --font-size-h2: #{typo(50px)};
+    --font-size-h3: #{typo(35px)};
+    --font-size-a-header: #{typo(14px)};
+    --font-size-button: #{typo(16px)};
 }

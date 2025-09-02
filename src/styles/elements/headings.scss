@@ -11,12 +11,14 @@ h6 {
     font-family: var(--font-primary);
     line-height: 1;
     font-weight: bold;
+    margin: 0;
 }
 
 h1 {
     font-size: var(--font-size-h1);
     margin-top: 0;
     color: var(--color-primary);
+    font-weight: 300;
 }
 
 h2 {

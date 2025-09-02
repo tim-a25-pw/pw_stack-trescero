@@ -8,6 +8,10 @@
         padding: 125px 0;
     }
 
+    H2{
+        color: var(--color-black);
+    }
+
     p{
         max-width: 66%;
         text-align: right;
@@ -32,8 +36,9 @@
             }
 
             .card_hover{
-                display: none;
-                opacity: 0%;
+                opacity: 0;
+
+                display: flex;
 
                 position: absolute;
                 top: 0;
@@ -49,7 +54,7 @@
 
                 background-color: rgba($color: #000000, $alpha: 1.0);
 
-                transition: all 2s ease-in-out;
+                transition: all 0.3s ease-in-out;
 
                 .hover_content{
                     width: 100%;
@@ -68,11 +73,10 @@
             }
 
             &:hover .card_hover{
-                display: flex;
 
                 background-color: rgba($color: #000000, $alpha: 0.5);
 
-                opacity: 100%;
+                opacity: 1;
             }
         }
     }

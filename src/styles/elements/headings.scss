@@ -23,8 +23,11 @@ h1 {
 
 h2 {
     font-size: var(--font-size-h2);
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
     color: var(--color-primary);
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
 }
 
 h3 {
@@ -43,4 +46,9 @@ h5 {
 
 h6 {
     font-size: var(--font-size-h6);
+}
+
+p{
+    line-height: 150%;
+    font-weight: 400;
 }

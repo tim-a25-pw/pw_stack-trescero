@@ -1,0 +1,40 @@
+.sports {
+    .wrapper {
+        display: flex;
+        justify-content: flex-end;
+
+        h2 {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+.swiper {
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide {
+    img {
+        width: 100%;
+        display: block;
+    }
+}
+
+.swiper-pagination {
+    top: 50% !important;
+    right: 20px !important;
+    left: auto !important;
+    bottom: auto !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+
+    width: fit-content !important;
+
+    .swiper-pagination-bullet {
+        width: 31px;
+        height: 31px;
+    }
+}
